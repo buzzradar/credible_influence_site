@@ -317,6 +317,16 @@ footer .buzzlogo img {
   height: 23px;
 }
 
+.flask_colour1, #flask_brain {
+  opacity: 0;
+  fill: #21c6ca;
+}
+
+.flask_colour2, #flask_bottle, #flask_heart, #brain_circle1, #brain_circle2, #brain_circle3 {
+  opacity: 0;
+  fill: #2f3e79;
+}
+
 /* --------------------------------------- */
 /* MEDIA QUERIES  */
 /* --------------------------------------- */
@@ -383,6 +393,10 @@ footer .buzzlogo img {
 
   .contact {
     width: 90%;
+  }
+
+  #SVG_flask {
+    width: 50%;
   }
 }
 /* Large screens ----------- */

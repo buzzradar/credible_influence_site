@@ -468,17 +468,42 @@ footer{
 
 
 
+//FLASH ANIMATION
+//---------------------------------------
 
+.flask_colour1 {
+    opacity:0;
+    fill:$primarycolor;
+}
 
+.flask_colour2 {
+    opacity:0;
+    fill:$secondarycolor1;
+}
 
+#flask_bottle {
+    @extend .flask_colour2;
+}
 
+#flask_heart {
+    @extend .flask_colour2;
+}
 
+#flask_brain {
+    @extend .flask_colour1;
+}
 
+#brain_circle1 {
+    @extend .flask_colour2;
+}
 
+#brain_circle2 {
+    @extend .flask_colour2;
+}
 
-
-
-
+#brain_circle3 {
+    @extend .flask_colour2;
+}
 
 
 
@@ -566,6 +591,11 @@ footer{
     .contact{
         width:90%;
     }
+
+    #SVG_flask {
+        width:50%;
+    }
+
 }
 
 

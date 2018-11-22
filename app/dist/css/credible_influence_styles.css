@@ -28,6 +28,10 @@ label.error {
   color: red;
 }
 
+.modal-open {
+  padding-right: 0px !important;
+}
+
 /* --------------------------------------- */
 /* BOOTSTRAP BUTTONS:  */
 /* --------------------------------------- */

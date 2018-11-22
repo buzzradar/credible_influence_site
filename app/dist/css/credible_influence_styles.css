@@ -32,6 +32,10 @@ label.error {
   padding-right: 0px !important;
 }
 
+.navbar {
+  padding: 0.5rem 1rem !important;
+}
+
 /* --------------------------------------- */
 /* BOOTSTRAP BUTTONS:  */
 /* --------------------------------------- */

@@ -160,9 +160,7 @@ var Main = function () {
                             }
                         }
                     }
-            ).on('shown.bs.modal', function (e) {
-                //do something when Bootbox is ready
-            });
+            );
         });
 
     };

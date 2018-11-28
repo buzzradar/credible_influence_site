@@ -174,8 +174,7 @@ label.error {
 }
 .banner_text_animation .weusedatato {
   color: #2f3e79;
-  font-size: 45px;
-  font-weight: 400;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 .banner_text_animation .copy {
@@ -366,7 +365,7 @@ footer .buzzlogo img {
     margin-top: 5px;
   }
   .banner_text_animation .weusedatato {
-    font-size: 28px;
+    font-size: 26px;
   }
   .banner_text_animation .copy {
     font-size: 25px;

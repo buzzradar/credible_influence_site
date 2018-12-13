@@ -27,8 +27,8 @@ var Nav = function () {
             "targetDomId" : ".contact",
         },
         {
-            "slug" : "ourplatform",
-            "label" : "Our Platform",
+            "slug" : "platform",
+            "label" : "Platform",
             "targetDomId" : false,
             "url" : "http://www.buzzradar.com"
         }

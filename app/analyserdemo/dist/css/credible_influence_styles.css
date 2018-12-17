@@ -1,0 +1,386 @@
+@charset "UTF-8";
+/* BUZZ PANELS GLOBAL CSS v0.2 */
+/* --------------------------------------- */
+/* BOOTSTRAP GENERIC ELEMENTS:  */
+/* --------------------------------------- */
+html, body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+
+a {
+  color: #21c6ca;
+}
+
+a:hover {
+  color: #5adcdf;
+}
+
+input {
+  border: 0 !important;
+  box-shadow: none;
+  background: #eee !important;
+}
+
+label.error {
+  font-size: 14px;
+  font-weight: 300;
+  color: red;
+}
+
+.modal-open {
+  padding-right: 0px !important;
+}
+
+.navbar {
+  padding: 0.5rem 1rem !important;
+}
+
+small {
+  font-size: 12px;
+}
+
+.amcharts-chart-div a {
+  display: none !important;
+}
+
+/* --------------------------------------- */
+/* BOOTSTRAP BUTTONS:  */
+/* --------------------------------------- */
+.btn {
+  border: 0 none;
+  font-size: 20px;
+  font-weight: 300;
+  font-weight: 400;
+}
+
+.btn-sm {
+  font-size: 14px;
+}
+
+.btn-xs {
+  font-size: 14px;
+  padding: 0px 2px;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: #21c6ca !important;
+}
+
+.btn-primary {
+  background: #2f3e79;
+  color: #ffffff;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+  background: #2f3e79;
+  color: #21c6ca;
+  outline: none !important;
+  box-shadow: none;
+}
+
+.btn-primary:active, .btn-primary.active {
+  background: #2f3e79;
+  box-shadow: none;
+}
+
+.btn-secondary {
+  background: #21c6ca;
+  color: #2f3e79;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open > .dropdown-toggle.btn-secondary {
+  background: #5adcdf;
+}
+
+.btn-secondary:active, .btn-secondary.active {
+  background: #21c6ca;
+  box-shadow: none;
+}
+
+.btn-social-connection {
+  background: grey;
+  font-size: 16px;
+  color: white;
+}
+.btn-social-connection.facebook {
+  background: #3b5998;
+}
+.btn-social-connection.facebook:hover {
+  background: #8b9dc3;
+}
+.btn-social-connection.facebook:active {
+  background: #8b9dc3 !important;
+}
+.btn-social-connection.instagram {
+  background: #fb3958;
+}
+.btn-social-connection.instagram:hover {
+  background: #f88094;
+}
+.btn-social-connection.instagram:active {
+  background: #f88094 !important;
+}
+
+/* --------------------------------------- */
+/* NAVBAR:  */
+/* --------------------------------------- */
+.navbar {
+  font-size: 14px;
+  font-weight: 300;
+  background: #21c6ca !important;
+}
+
+.nav-link {
+  color: #2f3e79 !important;
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+/* BOOTBOX  */
+/* --------------------------------------- */
+.modal-header {
+  background: #21c6ca;
+  color: white;
+}
+
+.modal-body {
+  overflow: hidden;
+}
+.modal-body img.watermark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.1;
+  width: 100%;
+}
+.modal-body img.tinyicon {
+  float: left;
+  margin: 0 20px 0 0;
+  display: block;
+  width: 100px;
+}
+
+.bootbox-close-button.close {
+  font-size: 35px;
+  outline: none !important;
+}
+
+.modal-header {
+  display: inline;
+}
+
+/* --------------------------------------- */
+/* CONTENT  */
+/* --------------------------------------- */
+.section-title {
+  font-size: 25px;
+}
+
+.banner {
+  color: black;
+  background: url(http://www.buzzradar.com/test/new_perso_ins/dist/images/banner_minority.jpg) no-repeat white top center;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.banner .container {
+  padding: 8% 0;
+}
+
+.banner_text_animation {
+  position: relative;
+}
+.banner_text_animation .blinking_copy {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.banner_text_animation .subheader {
+  font-size: 23px;
+}
+.banner_text_animation .blinking_cursor {
+  display: inline-block;
+  width: 5px;
+  height: 32px;
+  background: #2f3e79;
+  animation: blink-animation 0.5s steps(5, start) infinite;
+  -webkit-animation: blink-animation 0.5s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+.img-copy h4 {
+  margin-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.result-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+span.circle-number {
+  background: #2f3e79;
+  border-radius: 0.6em;
+  -moz-border-radius: 0.6em;
+  -webkit-border-radius: 0.6em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.2em;
+  margin-right: 5px;
+  text-align: center;
+  width: 1.2em;
+  font-size: 14px;
+}
+
+.assist-steps {
+  height: 60px;
+}
+
+.mt-step-number {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.bz-svg-dot {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: transparent;
+  top: 0px;
+  left: 0px;
+}
+
+footer {
+  font-size: 12px;
+  background: #2f3e79;
+  color: white;
+  padding: 20px 0 5px 0;
+  ççmargin-top: 20px;
+}
+footer .buzzlogo {
+  position: absolute;
+  top: -2px;
+  right: 100px;
+}
+footer .buzzlogo img {
+  height: 23px;
+}
+
+.preloader-spin {
+  padding: 20% 0;
+  color: #21c6ca;
+}
+
+.bz-skip {
+  font-size: 14px;
+  padding: 0px 2px;
+  color: #21c6ca;
+  cursor: pointer;
+}
+
+.bz-page-messages {
+  color: red;
+  font-size: 12px;
+}
+
+.get-in-touch {
+  background: #21c6ca;
+  color: white;
+}
+
+/* --------------------------------------- */
+/* ASSISTANT CONTENT  */
+/* --------------------------------------- */
+.form-actions {
+  margin-top: 30px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+.form-actions.no-border {
+  border: 0;
+}
+
+.help-block {
+  font-size: 12px;
+}
+.help-block.help-block-error {
+  color: red;
+}
+.help-block.newsletter {
+  color: #2f3e79 !important;
+}
+
+.form-check {
+  font-size: 14px;
+}
+
+/* --------------------------------------- */
+/* AI Watson Video  */
+/* --------------------------------------- */
+.aiwatson_video {
+  width: 100%;
+}
+
+.flask_colour1, #flask_brain {
+  opacity: 0;
+  fill: #21c6ca;
+}
+
+.flask_colour2, #flask_bottle, #flask_heart, #brain_circle1, #brain_circle2, #brain_circle3 {
+  opacity: 0;
+  fill: #2f3e79;
+}
+
+.flask-container {
+  padding: 30px 120px;
+}
+
+/* --------------------------------------- */
+/* MEDIA QUERIES  */
+/* --------------------------------------- */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .banner {
+    background: url(http://www.buzzradar.com/test/new_perso_ins/dist/images/banner_minority.jpg) no-repeat white top left;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .banner .container {
+    width: 85%;
+  }
+
+  .flask-container {
+    padding: 0px 40px;
+  }
+}
+/* Large screens ----------- */

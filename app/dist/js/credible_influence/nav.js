@@ -31,6 +31,11 @@ var Nav = function () {
             "label" : "Platform",
             "targetDomId" : false,
             "url" : "http://www.buzzradar.com"
+        },
+        {
+            "slug" : "bookdemo",
+            "label" : "Book a Demo",
+            "targetDomId" : false,
         }
     ];
 
@@ -77,7 +82,10 @@ var Nav = function () {
             var targetdomid = $(this).data('targetdomid');
             var url = $(this).data('url');
             console.log(slug,targetdomid);
-            if (targetdomid){
+            if (slug == "bookdemo"){
+                Calendly.showPopupWidget('https://calendly.com/buzzradar/meeting-with-patrick-1');
+                return false;
+            }else if (targetdomid){
                 $('html, body').animate({
                     scrollTop: $(targetdomid).offset().top - 50
                 }, 1000);

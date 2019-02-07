@@ -258,6 +258,17 @@ var Main = function () {
     };
 
 
+    var setBookDemo = function() {
+
+        $('.btn-book-demo').click(function(e){
+            e.preventDefault();
+            Calendly.showPopupWidget('https://calendly.com/buzzradar/meeting-with-patrick-1');
+            return false;
+        });
+
+    };
+
+
     
 
     return {
@@ -267,6 +278,7 @@ var Main = function () {
             setScrollTop();
             setUpContactForm();
             setBannerCallToAction();
+            setBookDemo();
         }
     };
 }();

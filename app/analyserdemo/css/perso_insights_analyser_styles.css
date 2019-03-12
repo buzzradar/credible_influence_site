@@ -230,7 +230,7 @@ small {
 
 .banner {
   color: black;
-  background: url('../../images/banner_minority.jpg') no-repeat white top center;
+  background: url(http://www.credibleinfluence.com/analyserdemo/images/banner_minority.jpg) no-repeat white top center;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;

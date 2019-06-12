@@ -215,6 +215,13 @@ label.error{
 .banner-inner-container{
     width:70%;
     //height:300px;
+
+    h1 {
+        font-size:24px;
+        //margin:15px 0px 30px 0px;
+        padding:0px 10%;
+        //border:1px solid black;
+    }
 }
 
 .banner_text_animation{
@@ -275,6 +282,12 @@ label.error{
     }
 }
 
+.h1banner {
+   h1{
+    font-size:24px;
+    margin:0px;
+   } 
+}
 
 
 //Story & Advantage

@@ -165,6 +165,10 @@ label.error {
 .banner-inner-container {
   width: 70%;
 }
+.banner-inner-container h1 {
+  font-size: 24px;
+  padding: 0px 10%;
+}
 
 .banner_text_animation {
   font-size: 23px;
@@ -209,6 +213,11 @@ label.error {
 }
 .tagline .white {
   color: white;
+}
+
+.h1banner h1 {
+  font-size: 24px;
+  margin: 0px;
 }
 
 .story_advantage .copy {

@@ -69,27 +69,16 @@ var Main = function () {
             
             var btn = $(this);
             var type = btn.data('type');
-            
-            switch (type){
-                case 'story':
-                    trackGAEvent('event','Our Story Button','clicked','true');
-                    copy = '<h2 class="mb-4 title text-center">OUR STORY</h2><p>Data without context and empathy is meaningless.</p> <p>We’ve spent the last 6 years designing and developing <a href="http://www.buzzradar.com" target="_blank">Buzz Radar</a> a real-time insight platform for some of the biggest brands in the world. As well as providing cutting edge insight technology, our clients have often asked us to help translate that insight, provide context and data driven advice to inform their strategy. So we’ve created Credible Influence to do just that.</p> <p>Whether it’s helping guide engaging creative content or helping predict trends that provides a brand with game changing insight, everything we do is based on state of the art data science.</p>';
-                break;
-                case 'advantage':
-                    trackGAEvent('event','Our Advantage Button','clicked','true');
-                    copy = '<h2 class="mb-4 title text-center">OUR ADVANTAGES</h2><p>Dashboards, algorithms and machine learning can only push data, correlations and insights to a certain point. In a world where technology has adapted faster than human behaviour, you need experts to provide a human touch to ensure you’re working with powerful insights that will help you to win.</p> <p>The engine that powers and supports our team of strategists, tacticians and analysts is our proprietary <a href="http://www.buzzradar.com" target="_blank">Buzz Radar</a> platform. 6 years in the making and built using IBM Watson AI, it allows us to capture, analyse and visualise vast amounts of data quickly and extract deep meaningful insight.</p> <p>Combined with our industry leading team, we can quickly and easily uncover insights, spot trends and make predictions for our clients. Turning all that, unwieldy unconnected data into powerful actionable intelligence that drives ROI.</p>';
-                break;
-            }
-
+        
             if (type != storyAdvantageSelected){
                 if (storyAdvantageCollapse){
                     $('.story_advantage_copy').collapse('hide');                
                     storyAdvantageCollapse = false; 
                     setTimeout(function(){
-                        applyCopyAnimate(copy)
+                        showRelevantCopy(type);
                     },1000);
                 }else{
-                    applyCopyAnimate(copy)
+                    showRelevantCopy(type);
                 }
                 storyAdvantageSelected = type;
             }else{
@@ -101,14 +90,23 @@ var Main = function () {
             
         });
 
-        function applyCopyAnimate(copy){
-            $('.story_advantage_copy').find('.dynamic-copy').html(copy);
+        function showRelevantCopy(type){
+
+            switch (type){
+                case 'story':
+                    trackGAEvent('event','Our Story Button','clicked','true');
+                    $('.dynamic-copy').find('.our_story').show();
+                    $('.dynamic-copy').find('.our_advantages').hide();
+                break;
+                case 'advantage':
+                    trackGAEvent('event','Our Advantage Button','clicked','true');
+                    $('.dynamic-copy').find('.our_story').hide();
+                    $('.dynamic-copy').find('.our_advantages').show();
+                break;
+            }
+
             $('.story_advantage_copy').collapse('show');
             storyAdvantageCollapse = true;
-
-            $('html, body').animate({
-                scrollTop: $('.story_advantage_copy').offset().top - 50
-            }, 1000);
         }
 
     };
@@ -253,6 +251,10 @@ var Main = function () {
             storyAdvantageSelected = null;
             $('#our-story-btn').trigger('click');
             trackGAEvent('event','Learn More Button','clicked','true');
+
+            $('body').animate({
+                scrollTop: $('.story_advantage_copy').offset().top - 50
+            }, 1000);
         });
 
     };

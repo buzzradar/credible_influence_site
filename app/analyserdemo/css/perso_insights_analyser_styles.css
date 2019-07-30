@@ -301,10 +301,16 @@ span.circle-number {
   margin-right: 5px;
   text-align: center;
   width: 1.2em;
-  font-size: 14px;
+  font-size: 18px;
 }
 span.circle-number.br {
   background: #f6921e !important;
+}
+span.circle-number.credible {
+  background: #21c6ca !important;
+}
+span.circle-number.black {
+  background: #000 !important;
 }
 
 .assist-steps {

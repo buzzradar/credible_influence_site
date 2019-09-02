@@ -1043,6 +1043,11 @@
         },
         "view": "\n\n    <div class=\"col-md-3\">\n        <img src=\"/bundles/insights/images/personalities/entrepreneur.svg\" />\n    </div>\n\n    <div class=\"col-md-9 left-line\" style=\"line-height:150%;\">\n        <h2 style=\"margin-top:0px;\"><strong>Entrepreneur</strong></h2>\n\n        You are unconventional and shrewd.\nYou are authority-challenging: you prefer to challenge authority and traditional values to help bring about positive changes. You are empathetic: you feel what others feel and are compassionate towards them. And you are imaginative: you have a wild imagination.\nYou are motivated to seek out experiences that provide a strong feeling of self-expression.\nYou are relatively unconcerned with both independence and tradition. You welcome when others direct your activities for you. And you care more about making your own path than following what others have done.\n\n\n        \n    </div>\n"
       },
+
+
+
+
+
       "consul": {
         "genderBrakeDown": {
           "unknown": 3,
@@ -1659,6 +1664,12 @@
         },
         "view": "\n\n    <div class=\"col-md-3\">\n        <img src=\"/bundles/insights/images/personalities/consul.svg\" />\n    </div>\n\n    <div class=\"col-md-9 left-line\" style=\"line-height:150%;\">\n        <h2 style=\"margin-top:0px;\"><strong>Consul</strong></h2>\n\n        You are unconventional.\nYou are self-doubting: you frequently doubt your ability to achieve your goals. You are self-assured: you tend to feel calm and self-assured. And you are mild-tempered: it takes a lot to get you angry.\nYour choices are driven by a desire for well-being.\nYou are relatively unconcerned with both tradition and achieving success. You care more about making your own path than following what others have done. And you make decisions with little regard for how they show off your talents.\n\n\n        \n    </div>\n"
       },
+
+
+
+
+
+
       "mediator": {
         "genderBrakeDown": {
           "male": 2,
@@ -2267,38 +2278,56 @@
         },
         "view": "\n\n    <div class=\"col-md-3\">\n        <img src=\"/bundles/insights/images/personalities/mediator.svg\" />\n    </div>\n\n    <div class=\"col-md-9 left-line\" style=\"line-height:150%;\">\n        <h2 style=\"margin-top:0px;\"><strong>Mediator</strong></h2>\n\n        You are restrained.\nYou are persistent: you can tackle and stick with tough tasks. You are content: you are generally comfortable with yourself as you are. And you are self-assured: you feel you have the ability to succeed in the tasks you set out to do.\nYour choices are driven by a desire for organization.\nYou consider tradition to guide a large part of what you do: you highly respect the groups you belong to and follow their guidance. You don&#039;t find helping others to be particularly motivating for you: you think people can handle their own business without interference.\n\n\n        \n    </div>\n"
       },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       "campaigner": {
         "genderBrakeDown": {
           "unknown": 1,
           "male": 9,
           "female": 8
         },
-      "professions": [
-        {
-          "name": "Business Developer",
-          "value": 3,
-          "percentage": 2
-        },
-        {
-          "name": "Fitness Coach",
-          "value": 1,
-          "percentage": 1
-        },
-        {
-          "name": "CEO",
-          "value": 1,
-          "percentage": 1
-        },
-        {
-          "name": "Teacher",
-          "value": 1,
-          "percentage": 1
-        },
-        {
-          "name": "Lawyer",
-          "value": 1,
-          "percentage": 1
-        },
+        "professions": [
+          {
+            "name": "Business Developer",
+            "value": 3,
+            "percentage": 2
+          },
+          {
+            "name": "Fitness Coach",
+            "value": 1,
+            "percentage": 1
+          },
+          {
+            "name": "CEO",
+            "value": 1,
+            "percentage": 1
+          },
+          {
+            "name": "Teacher",
+            "value": 1,
+            "percentage": 1
+          },
+          {
+            "name": "Lawyer",
+            "value": 1,
+            "percentage": 1
+          }
+        ],
         "interests": [
           {
             "name": "/family and parenting",
@@ -2902,6 +2931,18 @@
         },
         "view": "\n\n    <div class=\"col-md-3\">\n        <img src=\"/bundles/insights/images/personalities/campaigner.svg\" />\n    </div>\n\n    <div class=\"col-md-9 left-line\" style=\"line-height:150%;\">\n        <h2 style=\"margin-top:0px;\"><strong>Campaigner</strong></h2>\n\n        You are unconventional.\nYou are fiery: you have a fiery temper, especially when things do not go your way. You are empathetic: you feel what others feel and are compassionate towards them. And you are independent: you have a strong desire to have time to yourself.\nYou are motivated to seek out experiences that provide a strong feeling of discovery.\nYou don&#039;t find either tradition or achieving success to be particularly motivating for you. You care more about making your own path than following what others have done. And you make decisions with little regard for how they show off your talents.\n\n\n        \n    </div>\n"
       },
+
+
+
+
+
+
+
+
+
+
+
+
       "defender": {
         "genderBrakeDown": {
           "male": 6,
@@ -3526,6 +3567,20 @@
         },
         "view": "\n\n    <div class=\"col-md-3\">\n        <img src=\"/bundles/insights/images/personalities/defender.svg\" />\n    </div>\n\n    <div class=\"col-md-9 left-line\" style=\"line-height:150%;\">\n        <h2 style=\"margin-top:0px;\"><strong>Defender</strong></h2>\n\n        You are social.\nYou are hardened: you think that people should generally rely more on themselves than on other people. You are unconcerned with art: you are less concerned with artistic or creative activities than most people who participated in our surveys. And you are self-focused: you are more concerned with taking care of yourself than taking time for others.\nYour choices are driven by a desire for stability.\nYou consider tradition to guide a large part of what you do: you highly respect the groups you belong to and follow their guidance. You are relatively unconcerned with independence: you welcome when others direct your activities for you.\n\n\n        \n    </div>\n"
       },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       "architect": {
         "genderBrakeDown": {
           "female": 1
@@ -4092,6 +4147,16 @@
         },
         "view": "\n\n    <div class=\"col-md-3\">\n        <img src=\"/bundles/insights/images/personalities/architect.svg\" />\n    </div>\n\n    <div class=\"col-md-9 left-line\" style=\"line-height:150%;\">\n        <h2 style=\"margin-top:0px;\"><strong>Architect</strong></h2>\n\n        You are a bit coarse.\nYou are hardened: you think that people should generally rely more on themselves than on other people. You are unconcerned with art: you are less concerned with artistic or creative activities than most people who participated in our surveys. And you are hedonistic: you feel your desires strongly and are easily tempted by them.\nYour choices are driven by a desire for prestige.\nYou consider both achieving success and taking pleasure in life to guide a large part of what you do. You seek out opportunities to improve yourself and demonstrate that you are a capable person. And you are highly motivated to enjoy life to its fullest.\n\n\n        \n    </div>\n"
       },
+
+
+
+
+
+
+
+
+
+      
       "executive": {
         "genderBrakeDown": {
           "unknown": 1,

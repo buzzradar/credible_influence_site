@@ -107,6 +107,11 @@ var Main = function () {
 
             $('.story_advantage_copy').collapse('show');
             storyAdvantageCollapse = true;
+
+            // $('html, body').animate({
+            //     scrollTop: $(".story_advantage_copy").offset().top
+            // }, 1000);
+ 
         }
 
     };

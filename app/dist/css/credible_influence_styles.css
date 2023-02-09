@@ -127,6 +127,7 @@ label.error {
 
 .nav-link {
   color: #2f3e79 !important;
+  margin: 10px 10px;
 }
 
 .nav-link:hover {
@@ -216,6 +217,10 @@ label.error {
 }
 
 .h1banner h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.h1banner h2 {
   font-size: 24px;
   margin: 0px;
 }

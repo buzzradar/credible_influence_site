@@ -154,6 +154,7 @@ label.error{
 
 .nav-link{
     color:$secondarycolor1 !important;
+    margin:10px 10px;
 }
 .nav-link:hover{
     color:white !important;
@@ -222,6 +223,7 @@ label.error{
         padding:0px 10%;
         //border:1px solid black;
     }
+    
 }
 
 .banner_text_animation{
@@ -284,6 +286,10 @@ label.error{
 
 .h1banner {
    h1{
+    font-size:28px;
+    margin-bottom:10px;
+   } 
+   h2{
     font-size:24px;
     margin:0px;
    } 
